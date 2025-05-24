@@ -1,0 +1,45 @@
+/* Light Theme */
+.light-theme {
+    --bg: #F8FAFC;
+    --bg-light: #E2E8F0;
+    --text: #0F172A;
+    --text-light: #334155;
+    --card-bg: #FFFFFF;
+}
+
+.light-theme .glass-nav {
+    background: rgba(248, 250, 252, 0.8);
+    border-bottom: 1px solid rgba(108, 99, 255, 0.1);
+}
+
+.light-theme .glass-nav.scrolled {
+    background: rgba(248, 250, 252, 0.95);
+}
+
+.light-theme .project-card {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.light-theme .contact-form input,
+.light-theme .contact-form textarea {
+    background: rgba(15, 23, 42, 0.05);
+    border-color: rgba(15, 23, 42, 0.1);
+}
+
+.light-theme .contact-form input:focus,
+.light-theme .contact-form textarea:focus {
+    background: rgba(66, 226, 184, 0.05);
+}
+
+.light-theme .tech-icon {
+    background: rgba(15, 23, 42, 0.05);
+}
+
+.light-theme .project-modal {
+    background: rgba(248, 250, 252, 0.9);
+}
+
+.light-theme .modal-content {
+    background: var(--card-bg);
+    border: 1px solid rgba(15, 23, 42, 0.1);
+}
